@@ -237,7 +237,7 @@ function esVocal(letra){
    if (letra != ('a' || 'e' || 'i' || 'o' || 'u' || 'A' || 'E' || 'I' || 'O' || 'U')){
     return "Dato incorrecto";
   }
-   if (letra == ('a' || 'e' || 'i' || 'o' || 'u' || 'A' || 'E' || 'I' || 'O' || 'U'){
+   if (letra == ('a' || 'e' || 'i' || 'o' || 'u' || 'A' || 'E' || 'I' || 'O' || 'U')){
     return "Es vocal";
   }
 }
