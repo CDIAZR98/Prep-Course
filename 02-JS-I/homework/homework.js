@@ -170,7 +170,7 @@ function esPositivo(numero) {
   } if (numero < 0){
     return "es negativo";
   } if (numero == 0){
-    return "false";
+    return false;
   }
 }
 
