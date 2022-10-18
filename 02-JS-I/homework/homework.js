@@ -232,12 +232,15 @@ function esVocal(letra){
   //Escribe tu código aquí
   if (letra == ("a" || "e" || "i" || "o" || "u" || "A" || "E" || "I" || "O" || "U")){
     return "Es vocal";
-  } if (letra.length < 1){
+  }
+   if (letra.length < 1){
     return "Dato incorrecto";
-  } if (letra != ("a" || "e" || "i" || "o" || "u" || "A" || "E" || "I" || "O" || "U")){
+  } 
+   if (letra != ("a" || "e" || "i" || "o" || "u" || "A" || "E" || "I" || "O" || "U")){
     return "Dato incorrecto";
   }
 }
+
 
 
 
