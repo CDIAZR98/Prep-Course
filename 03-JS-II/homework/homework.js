@@ -169,7 +169,7 @@ function tablaDelSeis(){
   for (let i = 0; i <= 10; i ++){
     array6.push (6 * i)
   }
-  console.log  (array6);
+  return array6;
 }
 
 function tieneTresDigitos(numero){
