@@ -133,6 +133,7 @@ function operadoresLogicos(num1, num2, num3) {
     return "Hay negativos"
   } for (i = num3 ; i > num1 && i > num2 ; i++){
     console.log (i);
+    break;
   }
 }
 
