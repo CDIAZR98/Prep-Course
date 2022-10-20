@@ -131,11 +131,11 @@ function operadoresLogicos(num1, num2, num3) {
     return "Hay negativos";
   } else if (num1 > num2 && num1 > num3 && num1 > 0){
     return "Número 1 es mayor y positivo";
-  } for (i = num3 ; i > num1 && i > num2 ; i++){
-    console.log (i);
-    break;
+  } else if (num3 > num1 && num3 > num2){
+    return num3 + 1;
+  } else {
+    return "false";
   }
-  return "false";
 }
 
 function esPrimo(numero) {
