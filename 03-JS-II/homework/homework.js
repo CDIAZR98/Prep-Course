@@ -149,9 +149,10 @@ function esPrimo(numero) {
   } for (i = numero ; i > 1 ; i++){
     if ( i % i === 0 && i % 1 === 0){
       return true;
-    } 
+    } else if (i % i != 0){
+      return false;
+    }
   }
-  return false;
 }
 
 function esVerdadero(valor){
