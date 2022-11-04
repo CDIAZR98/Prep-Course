@@ -26,9 +26,7 @@ function incrementarPorUno(array) {
   // Aumenta cada entero por 1
   // y devuelve el array
   // Tu código:
-  for (let i=0; i<array.length; i++){
-    return (array + 1);
-  }
+  
 }
 
 
@@ -37,6 +35,7 @@ function agregarItemAlFinalDelArray(array, elemento) {
   // y devuelve el array
   // Tu código:
   array.push(elemento);
+  console.log(array);
 }
 
 
@@ -46,6 +45,7 @@ function agregarItemAlComienzoDelArray(array, elemento) {
   // Pista: usa el método `.unshift`
   // Tu código:
   array.unshift(elemento);
+  console.log(array);
 }
 
 
