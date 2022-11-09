@@ -26,7 +26,11 @@ function incrementarPorUno(array) {
   // Aumenta cada entero por 1
   // y devuelve el array
   // Tu código:
-  
+  let arraynuevo = [];
+  for (let i = 0 ; i < array.length ; i++){
+    arraynuevo [i] = array[i]+1;
+  }
+  return arraynuevo;
 }
 
 
@@ -35,7 +39,7 @@ function agregarItemAlFinalDelArray(array, elemento) {
   // y devuelve el array
   // Tu código:
   array.push(elemento);
-  console.log(array);
+  return array;
 }
 
 
@@ -45,7 +49,7 @@ function agregarItemAlComienzoDelArray(array, elemento) {
   // Pista: usa el método `.unshift`
   // Tu código:
   array.unshift(elemento);
-  console.log(array);
+  return array;
 }
 
 
@@ -55,6 +59,7 @@ function dePalabrasAFrase(palabras) {
   // con espacios entre cada palabra
   // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'
   // Tu código:
+  return palabras.join (' ');
 }
 
 
@@ -62,6 +67,12 @@ function arrayContiene(array, elemento) {
   // Comprueba si el elemento existe dentro de "array"
   // Devuelve "true" si está, o "false" si no está
   // Tu código:
+    for (let i = 0 ; i < array.length ; i++){
+    if (elemento===array[i]){
+      return 'true';
+    }
+    return 'false'
+  }
 }
 
 
@@ -88,7 +99,7 @@ function numeroMasGrande(numeros) {
 
 function multiplicarArgumentos() {
   // Usa la palabra clave `arguments` para multiplicar todos los argumentos y devolver el producto
-  // Si no se pasan argumentos devuelve 0. Si se pasa un argumento, simplemente devuélvelo
+  // Si no se pasan argumentos devuelve 0. Si se pasa un argumento, simplemente devuélvelo
   // Escribe tu código aquí:
 }
 
