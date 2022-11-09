@@ -80,6 +80,11 @@ function agregarNumeros(numeros) {
   // "numeros" debe ser un arreglo de enteros (int/integers)
   // Suma todos los enteros y devuelve el valor
   // Tu código:
+  let arreglo = 0;
+  for (let i = 0 ; i < numeros.length ; i++){
+    arreglo = arreglo + numeros[i];
+  }
+  return arreglo;
 }
 
 
@@ -87,6 +92,11 @@ function promedioResultadosTest(resultadosTest) {
   // "resultadosTest" debe ser una matriz de enteros (int/integers)
   // Itera (en un bucle) los elementos del array, calcula y devuelve el promedio de puntajes
   // Tu código:
+  let suma = 0;
+  for (let i = 0 ; i < resultadosTest.length ; i++){
+    suma = suma + resultadosTest[i];
+  }
+  return suma / (resultadosTest.lenght-1);
 }
 
 
