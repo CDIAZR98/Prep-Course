@@ -71,8 +71,8 @@ function arrayContiene(array, elemento) {
     if (elemento===array[i]){
           return true;
       }
-      return false;
     }
+    return false;
 }
 
 
