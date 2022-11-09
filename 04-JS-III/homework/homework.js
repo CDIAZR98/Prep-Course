@@ -147,7 +147,7 @@ function diaDeLaSemana(numeroDeDia) {
   //Escribe tu código aquí   
   if (numeroDeDia > 1 && numeroDeDia < 7){
     return "Es dia Laboral";
-  } elseif (numeroDeDia === 1 || numeroDeDia === 7)
+  } else if (numeroDeDia === 1 || numeroDeDia === 7)
   return "Es fin de semana";  
 } 
 
