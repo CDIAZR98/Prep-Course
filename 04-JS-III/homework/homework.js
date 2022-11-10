@@ -221,15 +221,15 @@ function breakStatement(numero) {
   let arr =[];
   for (let i=0; i<10;i++){
     num = num + 2;
-    if(num === i){
-      break;
-    }else {
+    if(num === i)break;
+    else {
       arr.push(num);
     }
   }
   if (i<10){
-    return "Se interrumpió la ejecución";
-  } else {
+    return 'Se interrumpió la ejecución';
+  } 
+  else {
     return arr;
   }
 }
