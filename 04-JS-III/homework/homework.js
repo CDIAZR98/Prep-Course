@@ -220,7 +220,7 @@ function breakStatement(numero) {
   let num = numero;
   let arr =[];
   for (let i=0; i<10;i++){
-    num = numero + 2;
+    num = num + 2;
     if(num === i){
       break;
     }else {
@@ -247,7 +247,7 @@ function continueStatement(numero) {
   for (let i=0; i<10;i++){
     if (i === 5)continue;
     else{
-      nuevonum = numero + 2;
+      nuevonum = nuevonum + 2;
       array.push(nuevonum)
     }
   }
